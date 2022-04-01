@@ -3,6 +3,8 @@
 
   --ms_primary-color: #0d6efd;
   --ms_secondary-color: #dc3545;
+  --ms_text-color: #737373;
+  --ms_headers-color: #1f1f1f;
 }
 
 /* COMMON  */
@@ -28,6 +30,11 @@ img{
 
 .ms_btn{
   border-radius: 2em;
+}
+
+.ms_container{
+  width: 90%;
+  margin: 0 auto;
 }
 
 /* HEADER  */
@@ -95,6 +102,19 @@ section{
   margin-bottom: 20px;
 }
 
+section h2{
+  font-weight: 600;
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  color: var(--ms_headers-color);
+}
+
+section p{
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: var(--ms_text-color);
+}
+
 /* jumbotron */
 .ms_jumbotron{
   width: 100%;
@@ -111,16 +131,17 @@ section{
   color: white;
 }
 
-.jumbotron-box h2{
-  margin-bottom: 20px;
-  font-size: 2.5rem;
-}
-
-.jumbotron-box p{
-  margin-bottom: 20px;
+.jumbotron-box h2,
+.jumbotron-box p,
+.jumbotron-box a{
+  color: inherit;
 }
 
 /* jumbotron options  */
+.jumbo-options{
+  margin-bottom: 75px;
+}
+
 .j-options-box{
   outline: 2px solid transparent;
   outline-offset: 3px;
@@ -131,3 +152,37 @@ section{
 .j-options-box.active{
   outline: 2px solid var(--ms_primary-color);
 }
+
+/* ps5 section  */
+.consol-intro{
+  text-align: center;
+}
+
+.consol-intro h3{
+  color: var(--ms_primary-color);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.ps5-gadget-card{
+  width: 100%;
+  border-bottom: 2px solid transparent;
+  opacity: 0.6;
+  text-align: center;
+}
+.ps5-gadget-card img{
+  width: 75%;
+  margin-bottom: 10px;
+}
+
+.ps5-gadget-card h3{
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+.ps5-gadget-card.active{
+  opacity: 1;
+  border-bottom: 2px solid var(--ms_primary-color);
+}
+
