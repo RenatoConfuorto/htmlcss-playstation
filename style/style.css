@@ -1,0 +1,74 @@
+:root{
+  --ms_header-height: 120px;
+
+  --ms_primary-color: #0d6efd;
+  --ms_secondary-color: #dc3545;
+}
+
+/* COMMON  */
+html{
+  font-size: 75%;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+  width: 100%;
+}
+
+.ms_btn{
+  border-radius: 2em;
+}
+
+/* HEADER  */
+header{
+  height: var(--ms_header-height);
+  width: 100%;
+}
+
+.header-top{
+  height: 30%;
+  background-color: black;
+  /* text-align: right; */
+}
+
+.header-top img{
+  height: 40%;
+  width: auto;
+}
+
+.header-bottom{
+  height: 70%;
+}
+
+.header-bottom .ms_play-logo{
+  height: 100%;
+  width: auto;
+}
+
+.header-bottom li{
+  margin-left: 5px;
+}
+
+.header-bottom li .chev-down{
+  width: auto;
+  height: 0.8rem;
+  display: inline-block;
+  margin-left: 3px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: black;
+}
+
+#loginBtn{
+  color: white;
+  padding: 0.5rem 0.75rem;
+}
+
+#navSearch{
+  height: 2rem;
+  width: auto;
+}
