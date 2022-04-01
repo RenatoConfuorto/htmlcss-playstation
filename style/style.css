@@ -222,3 +222,12 @@ section p{
 .ms_section-dark p{
   color: white;
 }
+
+/* ps4 section  */
+.ps4-header{
+  margin-bottom: 40px;
+}
+
+.ps4-item{
+  margin-bottom: 30px;
+}
