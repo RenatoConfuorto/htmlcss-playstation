@@ -239,10 +239,13 @@ section p{
   width: 100%;
   background-size: contain;
   background-position: right;
-  background-color: #bebcbb;
   background-repeat: no-repeat;
   padding: 5rem 0;
   margin-bottom: var(--ms_bottom-section-margin);
+}
+
+#psPlus.ms_jumbotron-small{
+  background-color: #bebcbb;
 }
 
 @media screen and (min-width:768px){
@@ -266,4 +269,38 @@ section p{
   border: 1px solid transparent;
   background-color: #dadbdd;
   color: var(--ms_primary-color);
+}
+
+/* discount section */
+.discount{
+  margin-bottom: var(--ms_bottom-section-margin);
+}
+
+.discount-text{
+  width: 100%;
+  text-align: center;
+  margin-bottom: var(--ms_bottom-section-margin);
+}
+
+.discount-card{
+  margin-bottom: var(--ms_bottom-section-margin);
+}
+
+/* playstation now jumbo  */
+#psNow.ms_jumbotron-small{
+  background-color: #161c3c;
+}
+
+#psNow .btn{
+  color: black;
+  background-color: white;
+  border: 1px solid transparent;
+}
+
+@media screen and (min-width:768px){
+
+  #psPNow.ms_jumbotron-small{
+  background-image: url(../img/ps-now-april-featured-image-block.png);
+  }
+
 }
