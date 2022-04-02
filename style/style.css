@@ -289,6 +289,7 @@ section p{
 /* playstation now jumbo  */
 #psNow.ms_jumbotron-small{
   background-color: #161c3c;
+  margin-bottom: 60px;
 }
 
 #psNow .btn{
@@ -299,8 +300,33 @@ section p{
 
 @media screen and (min-width:768px){
 
-  #psPNow.ms_jumbotron-small{
+  #psNow.ms_jumbotron-small{
   background-image: url(../img/ps-now-april-featured-image-block.png);
+  }
+
+}
+
+/* social */
+.ms_social{
+  text-align: center;
+}
+
+.ms_social h2{
+  margin-bottom: 60px;
+}
+
+@media screen and (min-width:768px){
+
+  .ms_social.ms_container{
+    width: 75%;
+  }
+
+}
+
+@media screen and (min-width:992px){
+
+  .ms_social.ms_container{
+    width: 50%;
   }
 
 }
